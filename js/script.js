@@ -7,7 +7,7 @@ const reply = document.querySelector(".cost-info")
 const cost = document.querySelector(".cost")
 
 const emptyCheck = () => {
-	if (price.value == "" || people.value == "" || tip.value == 0) {
+	if (price.value == "" || people.value == "") {
 		error.textContent = "Musisz uzupełnić wszytskie pola!"
 		reply.style.display = "none"
 	} else {
